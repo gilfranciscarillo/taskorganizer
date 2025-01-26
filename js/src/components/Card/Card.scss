@@ -1,0 +1,48 @@
+@import "./../../css_globals/globals.scss";
+
+.cardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    padding: 12px;
+    box-shadow: 0 0 10px 5px lightgrey;
+    cursor: pointer;
+}
+
+.description {
+    font-size: 15px;
+}
+
+.dateValues {
+    font-size: 12px;
+    padding-top: 16px;
+}
+
+.actionButtons {
+    display: flex;
+    justify-content: end;
+    padding-top: 16px;
+    gap: 8px;
+}
+
+.actionButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.actionButtonIcon {
+    font-size: 18px;
+}
+
+.delete {
+    color: var(--danger);
+}
+
+.edit {
+    color: var(--warning);    
+}

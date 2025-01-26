@@ -1,0 +1,21 @@
+@import './../../css_globals/globals.scss';
+
+.welcomeMessage {
+    color: grey;
+}
+
+.tasksContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.statusColumns {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.actionButtons {
+    @include button-styles;
+}

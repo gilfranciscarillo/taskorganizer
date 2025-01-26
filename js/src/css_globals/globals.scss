@@ -1,0 +1,41 @@
+:root {
+    --primary: #007bff;
+    --secondary: #d3d3d3;
+    --danger: #dc3545;
+    --warning: #ffc107;
+
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --text-light: #fff;
+    --text-dark: #212529;
+}
+
+@mixin button-styles {
+    padding: 12px 18px;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.buttonPrimary {
+    background-color: var(--primary);
+    color: var(--text-light);
+    border-color: var(--primary);
+}
+
+.buttonSecondary {
+    background-color: var(--secondary);
+    color: var(--text-dark);
+    border-color: var(--secondary);
+}
+
+.buttonDanger {
+    background-color: var(--danger);
+    color: var(--text-light);
+    border-color: var(--danger);
+}
+
+.alertDanger {
+    color: var(--danger);
+}
+

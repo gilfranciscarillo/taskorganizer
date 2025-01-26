@@ -1,0 +1,30 @@
+@import "./../../css_globals/globals.scss";
+
+// Need to create a reusable component for modal and take these styles with it
+.modalContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.modalHeader {
+    display: flex;
+    align-self: flex-start;
+}
+
+.modalContent {
+    display: flex;
+    align-self: center;
+    height: 100%;
+    width: 100%;
+}
+
+.modalFooter {
+  display: flex;
+  align-self: flex-end;
+  gap: 4px;
+
+  > .modalMainButtons {
+    @include button-styles;
+  }
+}
